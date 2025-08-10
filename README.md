@@ -3,12 +3,12 @@ A repository for the website of GCOMM.
 
 ---
 
-This repository has two branches; `dev` and `main`.
+This repository has two branches; `rolling` and `main`.
 
-`main` usually has the stable version of the website and easy-to-maintain environment while `dev` has most of the testing/experiments happen. It's where I implement and experiment the features I wish to add to the main branch, and will hopefully work.
+`main` has the stable branch of the website and easy-to-maintain environment while the `rolling` branch has most of the testing/experiments happen. It's where I implement and experiment the features I wish to add to the main branch, and will hopefully work.
 
-#### Prerequisites
-To get started developing, you'll need:
+### Prerequisites
+To get started developing and working with the repository, you'll need:
 - Git
 - Node.js + npm
 
@@ -38,20 +38,45 @@ Now, just your configuration.nix:
   ];
 }
 ```
-
+### Cloning
 Once all of those packages are installed in your machine, it's time to clone the repository:
 ```bash
 git clone https://github.com/n2w-rc/o.GCOMM
 cd 'o.GCOMM'
 ```
 
-I assume you've copied the above command, so you may now paste this command:
+And lastly, this:
 ```bash
-cd react-o1; npm install
+cd react-o1; npm install; npm start
 ```
 
 
+
 ---
+### Contributing to GCOMM
+We welcome contributions from everyone! Here's how you can help:
+
+1. **Fork & Clone**: Fork this repository and clone it locally.
+2. **Create a Branch**: Create a branch for your feature or bugfix.
+   ```bash
+   git checkout -b feature/feature-name
+   ```
+3. **Make Changes**: Make your changes and test them thoroughly.
+4. **Commit**: Commit your changes with clear, descriptive messages.
+5. **Push & PR**: Push to your fork and submit a pull request.
+
+#### Guidelines
+- Follow the existing code style and conventions
+- Test your changes thoroughly
+- Update documentation as needed
+- Keep pull requests focused on a single feature/fix
+
+We appreciate all kinds of contributions:
+- Code improvements
+- Bug fixes
+- Documentation updates
+- Feature suggestions
+- UI/UX enhancements
+
 ### Contact / HMU
 My AI has access to my secondary Google account to handle emails and check stuff.
-Please share files and other materials via Google services at: notboop0001@gmail.com.
